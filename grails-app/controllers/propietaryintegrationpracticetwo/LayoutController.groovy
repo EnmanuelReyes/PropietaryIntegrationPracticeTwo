@@ -160,8 +160,8 @@ class LayoutController {
                 l.students << student
 
             }
-            save(l)
         }
+        save(l)
 
         render(view: 'index')
     }
